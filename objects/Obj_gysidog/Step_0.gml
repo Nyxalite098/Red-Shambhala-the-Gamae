@@ -1,7 +1,7 @@
-left_key = keyboard_check(ord("A"));
-right_key = keyboard_check(ord("D"));
-up_key = keyboard_check(ord("W"));
-down_key = keyboard_check(ord("S"));
+left_key = keyboard_check(vk_left);
+right_key = keyboard_check(vk_right);
+up_key = keyboard_check(vk_up);
+down_key = keyboard_check(vk_down);
 
 xspd = (right_key - left_key) * movementspd;
 yspd = (down_key - up_key) * movementspd;
