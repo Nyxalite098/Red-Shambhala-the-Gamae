@@ -28,15 +28,38 @@ if xspd < 0 = true
 {
 	sprite_index = Spr_gysidog_LEFTMOVE;
 }
-if (yspd = 0) = false
-{ if xspd > 0 = false
-	{
-		sprite_index = Spr_gysidog_LEFTMOVE
-	}
+if keyboard_check_pressed(vk_left)
+{
+	still = 1;
 }
+
+if keyboard_check_pressed(vk_right)
+{
+	still = 2;
+}
+
 if (xspd = 0) = true
 { if (yspd = 0) = true
-	{
-		sprite_index = Spr_gysidog_LEFTSTILL;
+	{ if (still = 1) = true
+		{
+			sprite_index = Spr_gysidog_LEFTSTILL;
+		}
+	  if (still = 2) = true
+	  {
+		  sprite_index = Spr_gysidog_RIGHTSTILL;
+	  }
+	}
+}
+
+if (yspd = 0) = false
+{ if xspd > 0 = false
+	{ if (still = 1) = true
+		{
+			sprite_index = Spr_gysidog_LEFTMOVE;
+		}
+	if (still = 2) = true
+	{ 
+		sprite_index = Spr_gysidog_RIGHTMOVE;
+	}
 	}
 }

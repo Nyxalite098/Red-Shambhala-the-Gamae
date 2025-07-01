@@ -50,6 +50,7 @@
     {"id":{"name":"Spr_gysidog_LEFTMOVE","path":"sprites/Spr_gysidog_LEFTMOVE/Spr_gysidog_LEFTMOVE.yy",},},
     {"id":{"name":"Spr_gysidog_LEFTSTILL","path":"sprites/Spr_gysidog_LEFTSTILL/Spr_gysidog_LEFTSTILL.yy",},},
     {"id":{"name":"Spr_gysidog_RIGHTMOVE","path":"sprites/Spr_gysidog_RIGHTMOVE/Spr_gysidog_RIGHTMOVE.yy",},},
+    {"id":{"name":"Spr_gysidog_RIGHTSTILL","path":"sprites/Spr_gysidog_RIGHTSTILL/Spr_gysidog_RIGHTSTILL.yy",},},
     {"id":{"name":"spr_gysihouse1","path":"sprites/spr_gysihouse1/spr_gysihouse1.yy",},},
     {"id":{"name":"Spr_sonnenrad","path":"sprites/Spr_sonnenrad/Spr_sonnenrad.yy",},},
     {"id":{"name":"Spr_wall","path":"sprites/Spr_wall/Spr_wall.yy",},},
