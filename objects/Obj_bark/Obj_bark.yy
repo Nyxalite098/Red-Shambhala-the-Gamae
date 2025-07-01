@@ -1,16 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_gysi",
+  "%Name":"Obj_bark",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_gysi",
+  "name":"Obj_bark",
   "overriddenProperties":[],
   "parent":{
-    "name":"Gysi",
-    "path":"folders/Objects/Gysi.yy",
+    "name":"Gysi attack",
+    "path":"folders/Objects/Gysi/Gysi attack.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_gysi",
-    "path":"sprites/Spr_gysi/Spr_gysi.yy",
+    "name":"Spr_bark",
+    "path":"sprites/Spr_bark/Spr_bark.yy",
   },
   "spriteMaskId":null,
   "visible":true,
