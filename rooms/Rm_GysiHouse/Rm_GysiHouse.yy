@@ -1,16 +1,16 @@
 {
   "$GMRoom":"v1",
-  "%Name":"Room1",
+  "%Name":"Rm_GysiHouse",
   "creationCodeFile":"",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_3A871DF0","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_221A7DBE","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_47A2CBC8","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_4E628A64","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_3E4ABF13","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_3A871DF0","path":"rooms/Rm_GysiHouse/Rm_GysiHouse.yy",},
+    {"name":"inst_221A7DBE","path":"rooms/Rm_GysiHouse/Rm_GysiHouse.yy",},
+    {"name":"inst_47A2CBC8","path":"rooms/Rm_GysiHouse/Rm_GysiHouse.yy",},
+    {"name":"inst_4E628A64","path":"rooms/Rm_GysiHouse/Rm_GysiHouse.yy",},
+    {"name":"inst_3E4ABF13","path":"rooms/Rm_GysiHouse/Rm_GysiHouse.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -23,7 +23,7 @@
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"Spr_floorboardBG","path":"sprites/Spr_floorboardBG/Spr_floorboardBG.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
-  "name":"Room1",
+  "name":"Rm_GysiHouse",
   "parent":{
     "name":"Rooms",
     "path":"folders/Rooms.yy",
