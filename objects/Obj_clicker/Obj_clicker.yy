@@ -1,16 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_gysi",
+  "%Name":"Obj_clicker",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_gysi",
+  "name":"Obj_clicker",
   "overriddenProperties":[],
   "parent":{
-    "name":"Gysi",
-    "path":"folders/Objects/Gysi.yy",
+    "name":"Gysi attack",
+    "path":"folders/Objects/Gysi/Gysi attack.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,10 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Spr_gysi",
-    "path":"sprites/Spr_gysi/Spr_gysi.yy",
+  "spriteId":null,
+  "spriteMaskId":{
+    "name":"Spr_Clicker",
+    "path":"sprites/Spr_Clicker/Spr_Clicker.yy",
   },
-  "spriteMaskId":null,
   "visible":true,
 }

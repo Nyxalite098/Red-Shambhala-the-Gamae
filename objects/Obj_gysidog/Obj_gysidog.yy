@@ -9,8 +9,8 @@
   "name":"Obj_gysidog",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Gysi",
+    "path":"folders/Objects/Gysi.yy",
   },
   "parentObjectId":null,
   "persistent":false,
