@@ -82,6 +82,7 @@
     {"id":{"name":"Spr_Pwm","path":"sprites/Spr_Pwm/Spr_Pwm.yy",},},
     {"id":{"name":"Spr_RCP","path":"sprites/Spr_RCP/Spr_RCP.yy",},},
     {"id":{"name":"Spr_Robinn","path":"sprites/Spr_Robinn/Spr_Robinn.yy",},},
+    {"id":{"name":"Spr_Roster","path":"sprites/Spr_Roster/Spr_Roster.yy",},},
     {"id":{"name":"Spr_sonnenrad","path":"sprites/Spr_sonnenrad/Spr_sonnenrad.yy",},},
     {"id":{"name":"Spr_wall","path":"sprites/Spr_wall/Spr_wall.yy",},},
   ],
