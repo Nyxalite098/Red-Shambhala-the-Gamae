@@ -1,33 +1,13 @@
-var x_mov = keyboard_check(ord("d"))-keyboard_check(ord("a"));
-var y_mov = keyboard_check(ord("w"))-keyboard_check(ord("s"));
+var x_mov = keyboard_check(ord("D"))-keyboard_check(ord("A"));
+var y_mov = keyboard_check(ord("S"))-keyboard_check(ord("W"));
 
 move_and_collide(x_mov*mov_speed, y_mov*mov_speed, tile_map);
 
-//set sprite
-if xspd > 0 = true
-{
-	sprite_index = Spr_gysidog_RIGHTMOVE;
+// TODO: SPRITE CHANGE WHEN Y MOVEMENT
+if (x_mov != 0) {
+    if (x_mov>0) sprite_index = Spr_gysidog_RIGHTMOVE;
+    else if  (x_mov<0) sprite_index = Spr_gysidog_LEFTMOVE;
+} else {
+    if (sprite_index == Spr_gysidog_RIGHTMOVE) sprite_index = Spr_gysidog_RIGHTSTILL;
+    else if (sprite_index == Spr_gysidog_LEFTMOVE) sprite_index = Spr_gysidog_LEFTSTILL; 
 }
-if xspd < 0 = true
-{
-	sprite_index = Spr_gysidog_LEFTMOVE;
-}
-if keyboard_check_pressed(vk_left)
-{
-	still = true;
-}
-
-if keyboard_check_pressed(vk_right)
-{
-	still = false;
-}
-
-if xspd==0 and  yspd==0
-{
-    sprite_index = still ? Spr_gysidog_LEFTSTILL : Spr_gysidog_RIGHTSTILL;
-}
-
-if yspd==0 and abs(xspd)>0 
-{
-    sprite_index = still ? Spr_gysidog_LEFTMOVE : Spr_gysidog_RIGHTSTILL;
-} 
