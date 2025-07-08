@@ -1,23 +1,7 @@
-left_key = keyboard_check(vk_left);
-right_key = keyboard_check(vk_right);
-up_key = keyboard_check(vk_up);
-down_key = keyboard_check(vk_down);
+var x_mov = keyboard_check(ord("d"))-keyboard_check(ord("a"));
+var y_mov = keyboard_check(ord("w"))-keyboard_check(ord("s"));
 
-xspd = (right_key - left_key) * movementspd;
-yspd = (down_key - up_key) * movementspd;
-
-//collisions
-if place_meeting(x + xspd,y,Obj_wall) = true
-{
-	xspd = 0;
-}
-if place_meeting(x,y + yspd, Obj_wall) = true
-{
-	yspd = 0;
-}
-
-x = x + xspd;
-y = y + yspd;
+move_and_collide(x_mov*mov_speed, y_mov*mov_speed, tile_map);
 
 //set sprite
 if xspd > 0 = true
@@ -30,36 +14,20 @@ if xspd < 0 = true
 }
 if keyboard_check_pressed(vk_left)
 {
-	still = 1;
+	still = true;
 }
 
 if keyboard_check_pressed(vk_right)
 {
-	still = 2;
+	still = false;
 }
 
-if (xspd = 0) = true
-{ if (yspd = 0) = true
-	{ if (still = 1) = true
-		{
-			sprite_index = Spr_gysidog_LEFTSTILL;
-		}
-	  if (still = 2) = true
-	  {
-		  sprite_index = Spr_gysidog_RIGHTSTILL;
-	  }
-	}
+if xspd==0 and  yspd==0
+{
+    sprite_index = still ? Spr_gysidog_LEFTSTILL : Spr_gysidog_RIGHTSTILL;
 }
 
-if (yspd = 0) = false
-{ if xspd > 0 = false
-	{ if (still = 1) = true
-		{
-			sprite_index = Spr_gysidog_LEFTMOVE;
-		}
-	if (still = 2) = true
-	{ 
-		sprite_index = Spr_gysidog_RIGHTMOVE;
-	}
-	}
-}
+if yspd==0 and abs(xspd)>0 
+{
+    sprite_index = still ? Spr_gysidog_LEFTMOVE : Spr_gysidog_RIGHTSTILL;
+} 

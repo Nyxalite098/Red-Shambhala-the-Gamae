@@ -85,6 +85,7 @@
     {"id":{"name":"Spr_Roster","path":"sprites/Spr_Roster/Spr_Roster.yy",},},
     {"id":{"name":"Spr_sonnenrad","path":"sprites/Spr_sonnenrad/Spr_sonnenrad.yy",},},
     {"id":{"name":"Spr_wall","path":"sprites/Spr_wall/Spr_wall.yy",},},
+    {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
