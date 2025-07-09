@@ -1,65 +1,24 @@
-	left_key = keyboard_check(vk_left);
-right_key = keyboard_check(vk_right);
-up_key = keyboard_check(vk_up);
-down_key = keyboard_check(vk_down);
 
-xspd = (right_key - left_key) * movementspd;
-yspd = (down_key - up_key) * movementspd;
+var x_in = keyboard_check(ord("D"))-keyboard_check(ord("A"));
+var y_in = keyboard_check(ord("S"))-keyboard_check(ord("W"));
 
-//collisions
-if place_meeting(x + xspd,y,Obj_wall) = true
-{
-	xspd = 0;
-}
-if place_meeting(x,y + yspd, Obj_wall) = true
-{
-	yspd = 0;
+var mov_dir = point_direction(0, 0, x_in, y_in);
+if (x_in!=0 || y_in!=0) {
+    var x_mov = lengthdir_x(mov_speed, mov_dir)
+    var y_mov = lengthdir_y(mov_speed, mov_dir)
+    
+    move_and_collide(x_mov*mov_speed, y_mov*mov_speed, tile_map);
 }
 
-x = x + xspd;
-y = y + yspd;
-
-//set sprite
-if xspd > 0 = true
-{
-	sprite_index = Spr_gysidog_RIGHTMOVE;
-}
-if xspd < 0 = true
-{
-	sprite_index = Spr_gysidog_LEFTMOVE;
-}
-if keyboard_check_pressed(vk_left)
-{
-	still = 1;
-}
-
-if keyboard_check_pressed(vk_right)
-{
-	still = 2;
-}
-
-if (xspd = 0) = true
-{ if (yspd = 0) = true
-	{ if (still = 1) = true
-		{
-			sprite_index = Spr_gysidog_LEFTSTILL;
-		}
-	  if (still = 2) = true
-	  {
-		  sprite_index = Spr_gysidog_RIGHTSTILL;
-	  }
-	}
-}
-
-if (yspd = 0) = false
-{ if xspd > 0 = false
-	{ if (still = 1) = true
-		{
-			sprite_index = Spr_gysidog_LEFTMOVE;
-		}
-	if (still = 2) = true
-	{ 
-		sprite_index = Spr_gysidog_RIGHTMOVE;
-	}
-	}
+switch (x_in) {
+	case -1:
+        sprite_index = Spr_gysidog_LEFTMOVE;
+        break;
+    case 1:
+        sprite_index = Spr_gysidog_RIGHTMOVE;
+        break;
+    case 0:
+        if (sprite_index == Spr_gysidog_RIGHTMOVE) sprite_index = Spr_gysidog_RIGHTSTILL;
+        else if (sprite_index == Spr_gysidog_LEFTMOVE) sprite_index = Spr_gysidog_LEFTSTILL; 
+        break;
 }
