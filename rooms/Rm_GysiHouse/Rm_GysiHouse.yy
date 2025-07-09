@@ -13,6 +13,7 @@
     {"name":"inst_3E4ABF13","path":"rooms/Rm_GysiHouse/Rm_GysiHouse.yy",},
     {"name":"inst_424617CF","path":"rooms/Rm_GysiHouse/Rm_GysiHouse.yy",},
     {"name":"inst_48D0CB5F","path":"rooms/Rm_GysiHouse/Rm_GysiHouse.yy",},
+    {"name":"inst_2D811D08","path":"rooms/Rm_GysiHouse/Rm_GysiHouse.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -41,6 +42,7 @@
         {"$GMRInstance":"v2","%Name":"inst_3E4ABF13","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3E4ABF13","objectId":{"name":"Obj_gysidog","path":"objects/Obj_gysidog/Obj_gysidog.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":704.0,"y":416.0,},
         {"$GMRInstance":"v2","%Name":"inst_424617CF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_424617CF","objectId":{"name":"Obj_Gysidogattack","path":"objects/Obj_Gysidogattack/Obj_Gysidogattack.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":704.0,"y":416.0,},
         {"$GMRInstance":"v2","%Name":"inst_48D0CB5F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_48D0CB5F","objectId":{"name":"Obj_clicker","path":"objects/Obj_clicker/Obj_clicker.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":704.0,"y":416.0,},
+        {"$GMRInstance":"v2","%Name":"inst_2D811D08","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2D811D08","objectId":{"name":"Obj_musickiller","path":"objects/Obj_musickiller/Obj_musickiller.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1280.0,"y":672.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"Spr_floorboardBG","path":"sprites/Spr_floorboardBG/Spr_floorboardBG.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
